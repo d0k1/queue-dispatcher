@@ -1,0 +1,11 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:section title="Queue Dispatcher Scripts">
+        <f:entry title="Script to decide if computer is eligible for build item" field="canTakeScript">
+            <f:expandableTextbox  />
+        </f:entry>
+        <f:entry title="Script to decide if item is eligible to run" field="canRunScript">
+            <f:expandableTextbox  />
+        </f:entry>
+    </f:section>
+</j:jelly>
